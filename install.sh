@@ -3,7 +3,6 @@
 # setting hostname
 # server_name = "master"
 # hostnamectl set-hostname 
-user = USER
 
-echo "halo '$'user"
+echo "halo $HALO"
 
