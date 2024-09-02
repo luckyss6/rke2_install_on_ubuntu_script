@@ -3,7 +3,7 @@
 config_file="/etc/rancher/rke2"
 
 setHostname(){
-    if [ -z "${SERVER}"]: then
+    if [ -z "${SERVER}"]; then
         SERVER="master"
     fi
 
